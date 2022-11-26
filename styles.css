@@ -350,11 +350,16 @@ height: 550px;
     
     }
 
-    
+    #artist-photos {
+        width: 100%;
+        height: 100%;
+     
+    }  
 
-    
+    .spootify-embed {
+        width: fit-content;
+    }
 
-    
 
 }
 
@@ -370,12 +375,8 @@ height: 550px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
-
-    #artist-photos {
-        width: 100%;
-        height: 100%;
-     
-    }
+    
+    /**/
 
     .music-submit-form {
     
@@ -383,6 +384,7 @@ height: 550px;
         margin-right: 0;
         height: 710px;
     }
+
 
 
     .left {
