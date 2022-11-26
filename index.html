@@ -123,29 +123,32 @@
 <!-- Featured Artist and Music -->
 <!-- Featured Artist and Music -->
 
-<div style="width: 100%; height: 80px;" >
 
-    <div class="music-text">
-      <h1 class="featured-text">Featured Music</h1>
-    </div>
-
-    <div class="artist-text">
-      <h1 class="featured-text">Featured Artist</h1>
-    </div>
-
-</div>
-
-<!-- Spotify Embed -->
 
 <div class="container-fluid-{breakpoint}  row m-1">
 
-    <div class="col-sm-6 ">
-        <iframe style="height: 500px; border-radius:12px" src="https://open.spotify.com/embed/playlist/6VtSb3HhWWhPOulkjFEuwd?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <div class="col-sm-6 ">
+
+    <div class="container text-center music-text  ">
+        <h1 class="featured-text">Featured Music</h1>
     </div>
 
-    <!-- Artist Carousel -->
+    <div>
+      <iframe style="height: 500px; border-radius:12px" src="https://open.spotify.com/embed/playlist/6VtSb3HhWWhPOulkjFEuwd?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div> <!-- Spotify Embed -->
+    
+  </div>
+
+  
+
+  <div class="col-sm-6"> 
+
+    <div class="container text-center music-text  ">
+      <h1 class="featured-text">Featured Artist</h1>
+    </div>
    
-    <div id="carouselExampleControls" class="col-sm-6 carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!-- Artist Carousel -->
+      
         <div class="carousel-inner rounded" >
 
             <div class="carousel-item active">
@@ -182,7 +185,8 @@
         </button>
           
     
-    </div> 
+    </div>
+  </div>  
     
 </div>
 
