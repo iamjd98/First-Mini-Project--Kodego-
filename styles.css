@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Home Page*/
+/*Home Page*/
+/*Home Page*/
+
+.body {
+
+   background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.747)) , url(./assets/bg1.jpg);
+   background-size: 100%;
+   height: fit-content;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+
+.logo {
+    height: 40px;
+    width: 180px;
+    padding: 0%;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+
+/*Carousel*/
+/*Carousel*/
+/*Carousel*/
+
+
+.carousel-head-text {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.carousel-text {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+
+
+/*Featured*/
+/*Featured*/
+/*Featured*/
+
+.featured-text {
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+
+.music-text {
+   
+    color: orange;
+    margin-top: 12px;
+    width: 49%;
+    height: 60px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-text {
+ 
+    color: orange;
+    margin-top: 12px;
+    width: 50%;
+    height: 60px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#artist-photos {  /*makes photos same size as the embedded spotify playlist*/
+    height: 490px;
+    margin-left: 6px;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+
+
+/*Become Artist Invitation*/
+/*Become Artist Invitation*/
+/*Become Artist Invitation*/
+
+.become-artist {
+    display: flex;
+    justify-content: center;
+
+}
+
+.become-artist h1 {
+    color: orange;
+}
+
+
+
+.invite-con {
+   /* background-color: antiquewhite; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}   
+
+.invite-con h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.invite-con h6 {
+    color: aliceblue;
+}
+
+#invite-button:hover {
+    background-color: rgba(215, 217, 219, 0.123);
+}
+
+/*Footer*/
+/*Footer*/
+/*Footer*/
+
+#footer-con {
+    background-color: rgba(48, 48, 48, 0.644);
+    
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px; 
+  
+}
+
+
+
+/*Registration Page*/
+/*Registration Page*/
+/*Registration Page*/
+
+.music-submit-form {
+
+    color: rgb(255, 255, 255);
+    margin-top: 80px; 
+    height: 650px;
+    width: 100%;
+}
+
+
+.inner-con {
+   /* background-color: aqua;*/
+    height: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+   
+
+}
+
+.form-title {
+    color: orange;
+    width: 100%; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+   /* background-color:bisque; */
+    height:400px ; 
+    width:40%; 
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.right {
+   /* background-color:bisque; */
+    height:400px ; 
+    width:40%; 
+    margin-top: 10px;
+    margin-right: 110px;
+}
+
+
+.music-submit-form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.firstline {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.bday {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.address {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.e-mail {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.phone {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.submit-con {
+    width: 100%;
+    /*background-color: aquamarine;*/
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;  
+   
+}
+
+.mp3-upload {
+    cursor: pointer;
+}
+
+.lyrics-upload {
+    cursor: pointer;
+}
+
+
+
+.firstline:hover {
+    background-color: rgba(255, 247, 247, 0.842)
+    ;
+}
+
+.e-mail:hover {
+    background-color: rgba(255, 247, 247, 0.842)
+    ;
+}
+
+.address:hover {
+    background-color: rgba(255, 247, 247, 0.842)
+    ;
+}
+
+.phone:hover  {
+    background-color: rgba(255, 247, 247, 0.842)
+    ;
+}
+
+.bday:hover  {
+    background-color: rgba(255, 247, 247, 0.842)
+    ;
+}
+
+/*Marquee*/
+/*Marquee*/
+/*Marquee*/
+
+
+.marquee {
+    width: 100%;
+    background-color: orange;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee div {
+    font-size: 3rem;
+    font-family: verdana;
+    animation: animate 5s linear infinite;
+    display: inline-block;
+}
+
+@keyframes animate {
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
+
+
+
+
+
+
+
+.reg-btn {
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.reg-btn:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    
+    .body {
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+
+    .music-submit-form {
+    
+        margin-left: 10px;
+        margin-right: 0;
+        height: 710px;
+    }
+
+
+    .left {
+        float: left;
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .right {
+        
+        float: right;
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .inner-con {
+        
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: start;
+
+
+    }
+
+    .invite-con {
+        
+        padding-top: 50px;
+        height: 350px;
+    }
+
+    .submit-con {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
