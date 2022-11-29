@@ -295,6 +295,32 @@ height: 550px;
     ;
 }
 
+
+/*Booking Page*/
+/*Booking Page*/
+/*Booking Page*/
+
+#book-outer {
+  /*  background-color: orange; */
+    height: 650px; 
+    width: 100%; 
+    margin-top: 100px;
+}
+
+#book-con {
+    background-color: rgba(255, 102, 0, 0.308);
+    max-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+   
+}
+
+
+
+
+
+
 /*Marquee*/
 /*Marquee*/
 /*Marquee*/
@@ -361,6 +387,7 @@ height: 550px;
         width: fit-content;
     }
 
+    
 
 }
 
@@ -380,7 +407,6 @@ height: 550px;
     /**/
 
     .music-submit-form {
-    
         margin-left: 10px;
         margin-right: 0;
         height: 710px;

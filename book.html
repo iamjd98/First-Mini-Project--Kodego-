@@ -62,9 +62,115 @@
 
 
 
-<div class="text-center mt-5 pt-5"> 
-  <h1 class=" text-warning">THIS BOOKING PAGE IS UNDER CONSTRUCTION</h1>
+<div class="container-fluid mx-auto" id="book-outer">
+
+  <div class="row mx-auto" id="book-con">
+
+    <form action="#" class="needs-validation" novalidate>
+    <div class="col-sm-12 text-center mb-3">
+        <h1 class="text-white fw-bold">BOOK ARTIST</h1>
+    </div>
+
+    <div class="form-floating col-sm-12 mb-3">
+
+  
+      <input type="text" class="form-control" id="clientname" placeholder="Enter Full Name" required>
+      <label for="clientname" class="form-label text-muted">Enter Full Name</label>
+      <div class="valid-feedback">Good to go! </div>
+      <div class="invalid-feedback">Enter Valid Name</div>
+    
+    
+    </div>
+
+    <div class="form-floating col-sm-12 mb-3">
+
+  
+      <input type="email" class="form-control" id="clientemail" placeholder="Enter E-mail" required>
+      <label for="clientemail" class="form-label text-muted">Enter E-mail</label>
+      <div class="valid-feedback">Good to go! </div>
+      <div class="invalid-feedback">Enter Valid Name</div>
+    
+    
+    </div>
+
+    <div class="form-floating col-sm-12 mb-3">
+
+  
+      <input type="tel" class="form-control" id="clienttel" placeholder="Enter Phone Number" required>
+      <label for="clienttel" class="form-label text-muted">Enter Phone Number</label>
+      <div class="valid-feedback">Good to go! </div>
+      <div class="invalid-feedback">Enter Valid Name</div>
+    
+    
+    </div>
+
+    <div class="form-floating col-sm-12 mb-3">
+      <label for="validationTooltip04" class="form-label text-muted"></label>
+      <select class="form-select" id="validationTooltip04" placeholder="Choose Artist" required>
+        <option selected disabled value=""> Choose Artist to Book </option>
+        <option>Artist 1</option>
+        <option>Artist 2</option>
+        <option>Artist 3</option>
+        <option>Artist 4</option>
+        <option>Artist 5</option>
+      </select>
+      <div class="invalid-tooltip">
+        Please Select an Artist
+      </div>
+    </div>
+
+
+    <div class="form-floating col-sm-12 mb-3">
+
+  
+      <input type="datetime-local" class="form-control" id="time-date" placeholder="Enter Date & Time" required>
+      <label for="time-date" class="form-label text-muted">Enter Event Date & Time</label>
+      <div class="valid-feedback">Good to go! </div>
+      <div class="invalid-feedback">Enter Event Time and Date </div>
+    
+    
+    </div>
+
+
+
+    <div class="col-12 d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary btn-warning fw-bold p-3">Send Booking Inquiry</button> 
+    </div>
+
+  </div>
+</form>
+
 </div>
+
+
+
+
+<script>
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  
+  
+  
+  </script>
 
   
 
