@@ -174,6 +174,11 @@ height: 550px;
   
 }
 
+#footer-socials {
+    padding: 10px;
+    margin:10px;
+}
+
 
 
 /*Registration Page*/
@@ -387,31 +392,21 @@ height: 550px;
 }
 
 
-@media only screen and (max-width: 320px){
 
-    #mp3-upload {
-        max-width: 150px;
-    }
 
-    #lyrics-upload {
-        max-width: 150px;
+@media only screen and (max-width: 320px) {
+   
+    #footer-socials {
+        margin: 3px;
+        padding: 10px
     }
 
 }
 
 
 
-
-
 @media only screen and (max-width: 332px) {
 
-    #mp3-upload {
-        max-width: 150px;
-    }
-
-    #lyrics-upload {
-        max-width: 150px;
-    }
 
     .submit-con {
         margin-top: 70px;
